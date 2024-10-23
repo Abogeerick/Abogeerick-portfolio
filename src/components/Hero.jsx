@@ -12,7 +12,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white mb-4"
         >
-          John Doe
+          Erick Aboge
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
@@ -20,7 +20,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-6"
         >
-          Junior Software Developer
+          Full-Stack Software Developer
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: -20 }}

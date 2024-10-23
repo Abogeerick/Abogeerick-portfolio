@@ -21,13 +21,13 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
+        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
         formData,
-        'YOUR_USER_ID'
+        'YOUR_USER_ID'      // Replace with your EmailJS user ID
       );
       setSubmitMessage('Message sent successfully!');
-      setFormData({ name: '', email: '', message: '' });
+      setFormData({ name: '', email: '', message: '' }); // Reset form after success
     } catch (error) {
       setSubmitMessage('Failed to send message. Please try again.');
     }
@@ -99,12 +99,18 @@ const Contact = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-300"
+              className={`bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-300 ${
+                isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
+              }`}
             >
               {isSubmitting ? 'Sending...' : 'Send Message'}
             </button>
             {submitMessage && (
-              <p className={`text-sm ${submitMessage.includes('successfully') ? 'text-green-600' : 'text-red-600'}`}>
+              <p
+                className={`text-sm mt-4 ${
+                  submitMessage.includes('successfully') ? 'text-green-600' : 'text-red-600'
+                }`}
+              >
                 {submitMessage}
               </p>
             )}

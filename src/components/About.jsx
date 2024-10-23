@@ -22,7 +22,7 @@ const About = () => {
           >
             <img
               src="/profile-picture.jpg"
-              alt="John Doe"
+              alt="Erick Aboge"
               className="rounded-full w-64 h-64 object-cover mx-auto"
             />
           </motion.div>
@@ -33,13 +33,13 @@ const About = () => {
             className="md:w-2/3 text-center md:text-left"
           >
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Hi, I'm John Doe, a passionate junior software developer with a keen interest in creating efficient and elegant solutions. I recently graduated from XYZ University with a degree in Computer Science and have been honing my skills in web development.
+              Hi, I'm Erick Aboge, a passionate software developer with a strong background in full-stack development. Currently, I'm working on ERP systems at Optiven Ltd, focusing on building scalable, cross-platform mobile applications using Flutter.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              My journey in software development started with a fascination for problem-solving and has evolved into a love for crafting user-friendly applications. I'm particularly excited about front-end technologies and how they can be used to create engaging user experiences.
+              I have a Bachelor's Degree in Finance/Information Technology from the University of Nairobi and a Software Development Certificate from Moringa School. My experience spans across both front-end and back-end development, with a particular interest in creating intuitive and engaging user interfaces.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good book on software design patterns.
+              Outside of coding, I love exploring new technologies, working on freelance projects, and contributing to open-source communities. I’m always eager to learn and grow, whether it’s through new tools or frameworks.
             </p>
           </motion.div>
         </div>

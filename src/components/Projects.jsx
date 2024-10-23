@@ -4,28 +4,52 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
-    title: 'E-commerce Platform',
-    description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB.',
-    image: '/projects/ecommerce.jpg',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
-    github: 'https://github.com/johndoe/ecommerce-platform',
-    live: 'https://ecommerce-platform-demo.netlify.app',
+    title: 'HousePlans',
+    description: 'An interactive, React-based web application for showcasing diverse house plans in categories like Trending, New, Featured, and Luxury.',
+    image: '/projects/houseplans.jpg',
+    technologies: ['React', 'JavaScript', 'CSS'],
+    github: 'https://github.com/Abogeerick/housing-project',
+    live: 'https://project-app-dixx.onrender.com',
   },
   {
-    title: 'Weather App',
-    description: 'A weather application that provides real-time weather data using a third-party API.',
-    image: '/projects/weather-app.jpg',
-    technologies: ['React', 'OpenWeatherMap API', 'Tailwind CSS'],
-    github: 'https://github.com/johndoe/weather-app',
-    live: 'https://weather-app-demo.netlify.app',
+    title: 'Trade',
+    description: 'An innovative online shopping platform with a user-friendly interface for browsing, searching, and purchasing products.',
+    image: '/projects/trade.jpg',
+    technologies: ['React', 'JavaScript', 'CSS', 'Node.js'],
+    github: 'https://github.com/Bisinle/Trade',
+    live: 'https://traded.netlify.app',
   },
   {
-    title: 'Task Manager',
-    description: 'A task management application with drag-and-drop functionality.',
-    image: '/projects/task-manager.jpg',
-    technologies: ['React', 'Redux', 'React Beautiful DnD'],
-    github: 'https://github.com/johndoe/task-manager',
-    live: 'https://task-manager-demo.netlify.app',
+    title: 'News Sources',
+    description: 'A web application for aggregating news from various categories, offering a centralized platform for news updates.',
+    image: '/projects/news-sources.jpg',
+    technologies: ['React', 'JavaScript', 'CSS'],
+    github: 'https://github.com/eugenemrg/News-Sources',
+    live: 'https://eugenemrg.github.io/News-Sources',
+  },
+  {
+    title: 'Inventory Management CLI',
+    description: 'A command-line interface (CLI) application for efficient inventory management, enabling functionalities like adding, viewing, and deleting products and transactions.',
+    image: '/projects/inventory-cli.jpg',
+    technologies: ['Node.js', 'JavaScript'],
+    github: 'https://github.com/Abogeerick/CLI_project',
+    live: '',
+  },
+  {
+    title: 'ERP System (HR Module)',
+    description: 'Developed and maintained an ERP system for employee management and payroll processing, automating various HR functions. (Private project for previous employer)',
+    image: '/projects/erp.jpg',
+    technologies: ['Java', 'Spring Boot', 'MySQL'],
+    github: '',
+    live: '',
+  },
+  {
+    title: 'CRM Automation System',
+    description: 'Designed a CRM system to streamline customer engagement workflows and improve lead management efficiency. (Private project for previous employer)',
+    image: '/projects/crm.jpg',
+    technologies: ['Python', 'Django', 'PostgreSQL'],
+    github: '',
+    live: '',
   },
 ];
 
@@ -62,22 +86,26 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex justify-between">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-800 dark:text-white hover:text-blue-500 dark:hover:text-blue-400"
-                  >
-                    <FaGithub size={24} />
-                  </a>
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-800 dark:text-white hover:text-blue-500 dark:hover:text-blue-400"
-                  >
-                    <FaExternalLinkAlt size={24} />
-                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-800 dark:text-white hover:text-blue-500 dark:hover:text-blue-400"
+                    >
+                      <FaGithub size={24} />
+                    </a>
+                  )}
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-800 dark:text-white hover:text-blue-500 dark:hover:text-blue-400"
+                    >
+                      <FaExternalLinkAlt size={24} />
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>
