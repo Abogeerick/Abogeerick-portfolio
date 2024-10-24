@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-800">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
       <div className="text-center">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -56,10 +56,10 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="flex justify-center space-x-4"
         >
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <a href="https://github.com/Abogeerick" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
             <FaGithub size={24} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <a href="https://linkedin.com/in/erick-aboge-3a09572a6" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
             <FaLinkedin size={24} />
           </a>
         </motion.div>

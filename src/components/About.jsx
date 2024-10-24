@@ -1,5 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profilePicture from '../assets/profile-picture.jpg.jpeg';
+
+
 
 const About = () => {
   return (
@@ -21,7 +24,7 @@ const About = () => {
             className="md:w-1/3 mb-8 md:mb-0"
           >
             <img
-              src="/profile-picture.jpg"
+              src={profilePicture} 
               alt="Erick Aboge"
               className="rounded-full w-64 h-64 object-cover mx-auto"
             />

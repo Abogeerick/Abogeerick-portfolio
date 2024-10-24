@@ -1,12 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-
+import housePlans from '../assets/houseplans.png';
+import trade from '../assets/trade.png'; 
+import news from '../assets/news.png';
+import cli from '../assets/cli.png';
+import erp from '../assets/erp.png';
+import crm from '../assets/crm.png';
 const projects = [
   {
     title: 'HousePlans',
     description: 'An interactive, React-based web application for showcasing diverse house plans in categories like Trending, New, Featured, and Luxury.',
-    image: '/projects/houseplans.jpg',
+    image: housePlans,
     technologies: ['React', 'JavaScript', 'CSS'],
     github: 'https://github.com/Abogeerick/housing-project',
     live: 'https://project-app-dixx.onrender.com',
@@ -14,7 +19,7 @@ const projects = [
   {
     title: 'Trade',
     description: 'An innovative online shopping platform with a user-friendly interface for browsing, searching, and purchasing products.',
-    image: '/projects/trade.jpg',
+    image: trade,
     technologies: ['React', 'JavaScript', 'CSS', 'Node.js'],
     github: 'https://github.com/Bisinle/Trade',
     live: 'https://traded.netlify.app',
@@ -22,7 +27,7 @@ const projects = [
   {
     title: 'News Sources',
     description: 'A web application for aggregating news from various categories, offering a centralized platform for news updates.',
-    image: '/projects/news-sources.jpg',
+    image: news,
     technologies: ['React', 'JavaScript', 'CSS'],
     github: 'https://github.com/eugenemrg/News-Sources',
     live: 'https://eugenemrg.github.io/News-Sources',
@@ -30,7 +35,7 @@ const projects = [
   {
     title: 'Inventory Management CLI',
     description: 'A command-line interface (CLI) application for efficient inventory management, enabling functionalities like adding, viewing, and deleting products and transactions.',
-    image: '/projects/inventory-cli.jpg',
+    image: cli,
     technologies: ['Node.js', 'JavaScript'],
     github: 'https://github.com/Abogeerick/CLI_project',
     live: '',
@@ -38,7 +43,7 @@ const projects = [
   {
     title: 'ERP System (HR Module)',
     description: 'Developed and maintained an ERP system for employee management and payroll processing, automating various HR functions. (Private project for previous employer)',
-    image: '/projects/erp.jpg',
+    image: erp,
     technologies: ['Java', 'Spring Boot', 'MySQL'],
     github: '',
     live: '',
@@ -46,7 +51,7 @@ const projects = [
   {
     title: 'CRM Automation System',
     description: 'Designed a CRM system to streamline customer engagement workflows and improve lead management efficiency. (Private project for previous employer)',
-    image: '/projects/crm.jpg',
+    image: crm,
     technologies: ['Python', 'Django', 'PostgreSQL'],
     github: '',
     live: '',

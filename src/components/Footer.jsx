@@ -22,7 +22,7 @@ const Footer = () => {
               <FaGithub size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/abogeerick"
+              href="https://linkedin.com/in/erick-aboge-3a09572a6"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition duration-300"
@@ -30,7 +30,7 @@ const Footer = () => {
               <FaLinkedin size={24} />
             </a>
             <a
-              href="https://twitter.com/yourtwitterhandle"
+              href="https://linkedin.com/in/erick-aboge-3a09572a6"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition duration-300"
