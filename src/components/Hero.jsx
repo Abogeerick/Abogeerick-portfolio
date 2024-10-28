@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import ErickResume from '../assets/Erick-Resume.pdf'
 
 const Hero = () => {
   return (
@@ -43,7 +44,7 @@ const Hero = () => {
             View My Work
           </a>
           <a
-            href="/resume.pdf"
+            href={ErickResume}
             className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-bold py-2 px-4 rounded transition duration-300"
             download
           >
