@@ -21,7 +21,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-6"
         >
-          Full-Stack Software Developer
+          Software Engineer
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: -20 }}

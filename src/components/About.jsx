@@ -36,7 +36,7 @@ const About = () => {
             className="md:w-2/3 text-center md:text-left"
           >
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Hi, I'm Erick Aboge, a passionate software developer with a strong background in full-stack development. Currently, I'm working on ERP systems at Optiven Ltd, focusing on building scalable, cross-platform mobile applications using Flutter.
+              Hi, I’m Erick Aboge, a dedicated Software Engineer with a strong background in both Quality Assurance and front-end development. Currently, I work on ERP systems at Optiven Ltd, where I focus on building scalable, cross-platform mobile applications using Flutter and ensuring high-quality, bug-free software through comprehensive testing. I am passionate about developing seamless, user-friendly applications and optimizing systems to meet both functional and performance standards
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               I have a Bachelor's Degree in Finance/Information Technology from the University of Nairobi and a Software Development Certificate from Moringa School. My experience spans across both front-end and back-end development, with a particular interest in creating intuitive and engaging user interfaces.
